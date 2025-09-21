@@ -1230,18 +1230,15 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    position: relative;
 }
 
 body {
-    background: linear-gradient(135deg, #0f0f0f 0%, #1c1c1c 50%, #2a2a2a 100%);
-    color: var(--beige);
+    background-color: #000000; /* Fondo negro sólido */
+    color: var(--beige); /* Asegúrate de que esta variable esté definida */
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
     overflow-x: hidden;
     line-height: 1.8;
-    position: relative; /* asegura stacking context */
-    z-index: 1;
 }
 
 
